@@ -13,6 +13,10 @@ This is designed to be hosted in Windows Azure, but can probably be easily hoste
 5. Push the code to the Azure git repository with git
 
 
+## How Does It Work?
+
+See https://github.com/ervwalter/p2pool.info/wiki/Implementation-Details
+
 ## License
 
 This is open source with the MIT license:
