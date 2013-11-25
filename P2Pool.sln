@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P2Pool.Web", "P2Pool\P2Pool.Web.csproj", "{17C2498D-7DEC-486B-8CA6-1FF9E73E689A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{17C2498D-7DEC-486B-8CA6-1FF9E73E689A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17C2498D-7DEC-486B-8CA6-1FF9E73E689A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17C2498D-7DEC-486B-8CA6-1FF9E73E689A}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{17C2498D-7DEC-486B-8CA6-1FF9E73E689A}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{17C2498D-7DEC-486B-8CA6-1FF9E73E689A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{17C2498D-7DEC-486B-8CA6-1FF9E73E689A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17C2498D-7DEC-486B-8CA6-1FF9E73E689A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17C2498D-7DEC-486B-8CA6-1FF9E73E689A}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{17C2498D-7DEC-486B-8CA6-1FF9E73E689A}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{17C2498D-7DEC-486B-8CA6-1FF9E73E689A}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPath = packages\Unity.2.1.505.0\lib\NET35;packages\Unity.Interception.2.1.505.0\lib\NET35;packages\EnterpriseLibrary.Common.5.0.505.0\lib\NET35;packages\TransientFaultHandling.Core.5.0.1118.0\lib\NET35;packages\EnterpriseLibrary.WindowsAzure.TransientFaultHandling.5.0.1118.1\lib\NET4;packages\EnterpriseLibrary.WindowsAzure.TransientFaultHandling.5.0.1118.1\DesignTime
+	EndGlobalSection
+EndGlobal

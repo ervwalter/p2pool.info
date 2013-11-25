@@ -1,0 +1,274 @@
+﻿html
+{
+    height: 100%;
+}
+body
+{
+    padding-top: 40px; /* 60px to make the container go all the way to the bottom of the topbar */
+    overflow-y: scroll;
+    background-color: #eee;
+    height: 100%;
+}
+.chart
+{
+    height: 400px;
+    margin: 0 auto;
+}
+.chart-loading
+{
+    padding-top: 200px;
+    text-align: center;
+    color: #eeeeee;
+    font-size: 48px;
+}
+#main-container
+{
+    position: relative;
+    background-color: #fff;
+    padding: 20px;
+    min-height: 100%;
+}
+#status
+{
+    display: none;
+    position: absolute;
+    z-index: 100;
+    min-width: 400px;
+    top: 110px;
+    left: 80px;
+}
+
+#tab-area
+{
+    padding: 20px 80px 0 80px;
+}
+
+#tabs
+{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+#current-stats
+{
+    font-size: 140%;
+    padding-left: 10px;
+}
+
+#current-rate
+{
+    font-weight: bold;
+    padding-right: 20px;
+    padding-left: 3px;
+}
+
+#current-round, #ttfb
+{
+    padding-right: 20px;
+}
+
+#current-round .duration, #ttfb .duration
+{
+    width: auto;
+    font-weight: bold;
+    padding: 0 3px;
+}
+
+#tab-area table
+{
+    font-size: 120%;
+    margin: 0 0 0 0;
+    width: 80%;
+}
+
+#payouts table, #users table, #donations table
+{
+    min-width: 40%;
+    width: auto;
+}
+
+#tab-area div.intro
+{
+    margin: 20px 0 10px 8px;
+    width: 550px;
+}
+
+#blocks div.intro
+{
+    margin: 20px 0 10px 8px;
+    width: 700px;
+}
+
+
+td, th
+{
+    background-color: #fff;
+}
+
+.block-date, .block-time
+{
+    align: right;
+}
+.block-number
+{
+    align: left;
+}
+.block-transaction
+{
+    align: left;
+}
+th.block-duration, td.block-duration
+{
+    text-align: right;
+}
+.duration
+{
+    display: inline-block;
+    text-align: right;
+    width: 2.6em;
+}
+
+.block-txhash
+{
+}
+
+th.block-percent, td.block-percent
+{
+    text-align: right;
+}
+
+.extra-space
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.homelink img
+{
+    padding-right: 20px;
+}
+
+.green
+{
+    color: Green;
+}
+
+.red
+{
+    color: Red;
+}
+
+tr.orphaned, tr.orphaned div, tr.orphaned a, tr.orphaned .green, tr.orphaned .red, .orphaned
+{
+    color: #ccc;
+    text-decoration: line-through;
+}
+
+#welcome
+{
+    margin: 0 0 20px 0;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+td.rate
+{
+    text-align: right;
+}
+
+.table-striped tbody tr.starred td
+{
+    background-color: #ffc;
+}
+
+span.star
+{
+    background: url(star.png);
+    height: 16px;
+    width: 16px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: 0px -16px;
+    cursor: pointer;
+}
+tr.starred span.star
+{
+    background-position: 0px 0px;
+}
+td.star, th.star
+{
+    width: 16px;
+    text-align: right;
+}
+
+#modal-settings form
+{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#actualExpected
+{
+    font-size: 130%;
+    margin: 20px 8px 0px 8px;
+}
+
+#actualExpected a
+{
+    padding-left: 10px;
+    font-size: 80%;
+}
+
+
+.luckMessage
+{
+    padding-right: 10px;
+}
+
+.luck
+{
+    font-weight: bold;
+    padding: 0 5px;
+}
+
+p.modal-section
+{
+    border-bottom: 1px solid #eee;
+    font-weight: bold;
+    font-size: 120%;
+}
+
+p + p.modal-section
+{
+    padding-top: 20px;
+}
+
+/*
+.modal
+{
+    width: 700px;
+    margin-left: -350px;
+}
+*/
+
+.helptip
+{
+    cursor: help;
+}
+
+.popover-inner
+{
+    width: 350px;
+}
+
+#chart-luckovertime
+{
+    height: 600px;
+    margin: 0px 0px;
+}
+
+#chart-blocksvshashes
+{
+    height: 600px;
+    margin: 30px 0px;
+}
