@@ -6,7 +6,7 @@ This is the source for the p2pool.info website.
 
 This is designed to be hosted in Windows Azure, but can probably be easily hosted on a normal windows server as well.
 
-1. Setup a new SQL Azure database and import the database .bacpac file
+1. Setup a new SQL Azure database and import the schema and data from [here](https://github.com/ervwalter/p2pool.info-data).
 2. Setup a new Azure Web Site, and put it in Standard mode (this app uses too much RAM to be run in Free or Shared mode).
 3. Setup git deployment for the new web site
 4. Go to the configuration and add the connection string for the database you created above.  Also add an AuthToken configuration varable with whatever token you want to use.
