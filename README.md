@@ -9,7 +9,7 @@ This is designed to be hosted in Windows Azure, but can probably be easily hoste
 1. Setup a new SQL Azure database and import the schema and data from [here](https://github.com/ervwalter/p2pool.info-data).
 2. Setup a new Azure Web Site, and put it in Standard mode (this app uses too much RAM to be run in Free or Shared mode).
 3. Setup git deployment for the new web site
-4. Go to the configuration and add the connection string for the database you created above.  Also add an AuthToken configuration varable with whatever token you want to use.
+4. Go to the configuration and add a connection string named P2PoolDb for the database you created above.  Also add an AuthToken configuration varable with whatever token you want to use.
 5. Push the code to the Azure git repository with git
 
 
